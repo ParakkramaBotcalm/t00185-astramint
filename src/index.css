@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Bungee;
+  src: url("./assets/fonts/Bungee-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("./assets/fonts/poppins.black.ttf");
+}
+
+/* 
+@font-face {
+  font-family: Nohomi;
+  src: url("/fonts/Nohemi-Medium-BF6438cc581a509.otf");
+} */
+
+
+@theme {
+
+  /* --font-nohemi: nohemi, sans-serif;
+    --font-play: play, sans-serif; */
+  --font-Bungee: Bungee;
+  --font-Poppins: Poppins;
+  --breakpoint-minism: 430px;
+  --breakpoint-midsm: 550px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-midlg: 960px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-midxl: 1430px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-xmlg: 1800px;
+  --breakpoint-xmmlg: 1900px;
+
+  --color-orange:#E7810D;
+  --color-yellow:#E7BB0D
+}
+
+.realCenter{
+    @apply flex justify-center items-center
+}
