@@ -1,3 +1,3 @@
 export interface TopicCardProps {
-    title: string;
+  title: string;
 }

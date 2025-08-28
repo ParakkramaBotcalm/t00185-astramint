@@ -7,7 +7,6 @@ import Marquee from "react-fast-marquee";
 import MarqueComponent from "./components/MarqueComponent";
 
 function App() {
-
   useEffect(() => {
     const scrollEl = document.querySelector("[data-scroll-container]") as HTMLElement;
 
@@ -25,7 +24,7 @@ function App() {
     };
   }, []);
   return (
-    <div className="flex flex-col justify-start items-center bg-black" >
+    <div className="flex flex-col items-center justify-start bg-black">
       <Hero />
       <Tokonomics />
       <Marquee autoFill={true} pauseOnHover={true}>
