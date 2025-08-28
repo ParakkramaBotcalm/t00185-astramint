@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Hero from "./sections/Hero";
 import LocomotiveScroll from "locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
+import Tokonomics from "./sections/Tokonomics";
 
 function App() {
 
@@ -22,8 +23,9 @@ function App() {
     };
   }, []);
   return (
-    <div>
+    <div className="flex flex-col justify-start items-center bg-black" >
       <Hero/>
+      <Tokonomics/>
     </div>
   );
 }
