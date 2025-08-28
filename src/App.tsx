@@ -3,6 +3,8 @@ import Hero from "./sections/Hero";
 import LocomotiveScroll from "locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import Tokonomics from "./sections/Tokonomics";
+import Marquee from "react-fast-marquee";
+import MarqueComponent from "./components/MarqueComponent";
 
 function App() {
 
@@ -24,8 +26,11 @@ function App() {
   }, []);
   return (
     <div className="flex flex-col justify-start items-center bg-black" >
-      <Hero/>
-      <Tokonomics/>
+      <Hero />
+      <Tokonomics />
+      <Marquee autoFill={true} pauseOnHover={true}>
+        <MarqueComponent />
+      </Marquee>
     </div>
   );
 }
