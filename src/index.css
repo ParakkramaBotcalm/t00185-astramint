@@ -9,6 +9,10 @@
   font-family: Poppins;
   src: url("./assets/fonts/poppins.black.ttf");
 }
+@font-face {
+  font-family: Poppins-medium;
+  src: url("./assets/fonts/poppins.medium.ttf");
+}
 
 /* 
 @font-face {
@@ -23,6 +27,7 @@
     --font-play: play, sans-serif; */
   --font-Bungee: Bungee;
   --font-Poppins: Poppins;
+  --font-PoppinsMedium: Poppins-medium;
   --breakpoint-minism: 430px;
   --breakpoint-midsm: 550px;
   --breakpoint-sm: 640px;

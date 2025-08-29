@@ -5,6 +5,7 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 import Tokonomics from "./sections/Tokonomics";
 import Marquee from "react-fast-marquee";
 import MarqueComponent from "./components/MarqueComponent";
+import TokenStory from "./sections/TokenStory";
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
       <Marquee autoFill={true} pauseOnHover={true}>
         <MarqueComponent />
       </Marquee>
+      <TokenStory />
     </div>
   );
 }
