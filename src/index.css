@@ -49,3 +49,7 @@
 .realCenter{
     @apply flex justify-center items-center
 }
+
+.ashgradent{
+  @apply bg-linear-to-t from-[#000000] to-[#D7D7D7]
+}

@@ -6,6 +6,7 @@ import Tokonomics from "./sections/Tokonomics";
 import Marquee from "react-fast-marquee";
 import MarqueComponent from "./components/MarqueComponent";
 import TokenStory from "./sections/TokenStory";
+import Quictions from "./sections/Quictions";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <MarqueComponent />
       </Marquee>
       <TokenStory />
+      <Quictions />
     </div>
   );
 }
