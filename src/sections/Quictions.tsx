@@ -3,10 +3,11 @@ import QuctionsCard from "../components/Cards/QuctionsCard";
 import { QUACTIONCARDCONST } from "../constants/QuctionCard.const";
 import FoxIdle from "../assets/image/foxIdel.webp";
 import Cicles from "../assets/image/Circles.png";
+import RoadMap from "./RoadMap";
 
 const Quictions = () => {
   return (
-    <div className="h-auto w-full">
+    <div className="flex h-auto w-full flex-col gap-[50px]">
       <div className="flex h-auto w-full flex-col items-center px-[29px] md:hidden">
         <div className="flex w-full max-w-[356px] flex-col gap-[50px]">
           <div>
@@ -22,7 +23,9 @@ const Quictions = () => {
           </picture>
         </div>
       </div>
-
+      <div className="h-auto w-full px-[29px] md:hidden">
+        <RoadMap />
+      </div>
       <div className="xmmlg:px-[200px] relative hidden w-full flex-col gap-[30px] md:flex md:px-[50px] lg:px-[100px] 2xl:px-[150px]">
         <div>
           <BreakLine />
@@ -36,9 +39,7 @@ const Quictions = () => {
             />
           </picture>
         </div>
-        <div>
-          <BreakLine />
-        </div>
+
         <div className="absolute top-1/8 left-6/11 -translate-x-1/2 lg:top-1/8">
           <div className="relative">
             <picture className="">
@@ -72,6 +73,15 @@ const Quictions = () => {
               />
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="xmmlg:h-[100px] relative hidden h-[300px] w-full flex-col justify-end bg-black md:flex lg:h-[250px] xl:h-[350px]">
+        <div className="xmmlg:-top-[400px] absolute inset-0 -top-[200px] z-10 flex items-center justify-center lg:-top-[250px]">
+          <RoadMap />
+        </div>
+        <div className="xmmlg:px-[200px] md:px-[50px] lg:px-[100px] 2xl:px-[150px]">
+          <BreakLine />
         </div>
       </div>
     </div>
