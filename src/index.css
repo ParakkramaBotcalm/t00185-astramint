@@ -53,3 +53,7 @@
 .ashgradent{
   @apply bg-linear-to-t from-[#000000] to-[#D7D7D7]
 }
+
+.commmanPadding{
+  @apply xmmlg:px-[200px] md:px-[50px] lg:px-[100px] 2xl:px-[150px] px-[29px]
+}

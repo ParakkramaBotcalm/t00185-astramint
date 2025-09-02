@@ -7,6 +7,7 @@ import Marquee from "react-fast-marquee";
 import MarqueComponent from "./components/MarqueComponent";
 import TokenStory from "./sections/TokenStory";
 import Quictions from "./sections/Quictions";
+import HowToBuy from "./sections/HowToBuy";
 
 function App() {
   useEffect(() => {
@@ -34,6 +35,10 @@ function App() {
       </Marquee>
       <TokenStory />
       <Quictions />
+      <HowToBuy/>
+      <Marquee autoFill={true} pauseOnHover={true} direction={"right"} >
+        <MarqueComponent />
+      </Marquee>
     </div>
   );
 }
