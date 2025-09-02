@@ -1,3 +1,3 @@
-export interface HowToBuyCardProps{
-    description?:string;
+export interface HowToBuyCardProps {
+  description?: string;
 }

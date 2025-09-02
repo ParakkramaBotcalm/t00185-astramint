@@ -35,8 +35,8 @@ function App() {
       </Marquee>
       <TokenStory />
       <Quictions />
-      <HowToBuy/>
-      <Marquee autoFill={true} pauseOnHover={true} direction={"right"} >
+      <HowToBuy />
+      <Marquee autoFill={true} pauseOnHover={true} direction={"right"}>
         <MarqueComponent />
       </Marquee>
     </div>

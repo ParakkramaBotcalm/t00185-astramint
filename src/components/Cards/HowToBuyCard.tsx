@@ -1,14 +1,15 @@
-import { HowToBuyCardProps } from "../../types/HowToBuyCardProps"
-
+import { HowToBuyCardProps } from "../../types/HowToBuyCardProps";
 
 const HowToBuyCard = ({ description }: HowToBuyCardProps) => {
-    return (
-        <div className="w-full h-auto p-[2px] rounded-[30px] ashgradent min-h-[69px] 2xl:min-w-[500px] xmmlg:min-w-[542px]">
-            <div className="flex flex-col items-center py-[17px] bg-brouwn rounded-[30px] px-[20px] w-full h-full">
-                <p className="text-[14px] text-white/60 leading-[120%] font-PoppinsMedium text-center">{description}</p>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="ashgradent xmmlg:min-w-[542px] h-auto min-h-[69px] w-full rounded-[30px] p-[2px] 2xl:min-w-[500px]">
+      <div className="bg-brouwn flex h-full w-full flex-col items-center rounded-[30px] px-[20px] py-[17px]">
+        <p className="font-PoppinsMedium text-center text-[14px] leading-[120%] text-white/60">
+          {description}
+        </p>
+      </div>
+    </div>
+  );
+};
 
-export default HowToBuyCard
+export default HowToBuyCard;
