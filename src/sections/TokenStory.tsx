@@ -4,7 +4,10 @@ import StoryFox from "../assets/image/story_fox.webp";
 
 const TokenStory = () => {
   return (
-    <div id="about-us" className="xmmlg:px-[200px] flex w-full max-w-[1920px] flex-col items-center gap-[30px] overflow-x-hidden px-[29px] py-[50px] md:flex-row md:justify-between md:px-[50px] lg:gap-[40px] lg:px-[100px] 2xl:gap-[50px] 2xl:px-[150px]">
+    <div
+      id="about-us"
+      className="xmmlg:px-[200px] flex w-full max-w-[1920px] flex-col items-center gap-[30px] overflow-x-hidden px-[29px] py-[50px] md:flex-row md:justify-between md:px-[50px] lg:gap-[40px] lg:px-[100px] 2xl:gap-[50px] 2xl:px-[150px]"
+    >
       <div className="flex max-w-[450px] flex-col items-center gap-[30px] md:max-w-full md:min-w-1/2">
         <div className="flex max-w-[450px] flex-col items-center gap-[30px] md:max-w-[749px]">
           <div className="flex w-full justify-center text-center md:justify-start">

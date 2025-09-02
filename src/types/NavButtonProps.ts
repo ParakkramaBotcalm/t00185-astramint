@@ -1,5 +1,4 @@
-export interface NavButtonProps{
-    title?:string;
-    href?:string;
-
+export interface NavButtonProps {
+  title?: string;
+  href?: string;
 }

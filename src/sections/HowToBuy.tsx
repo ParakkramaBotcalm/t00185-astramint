@@ -6,7 +6,10 @@ import { HOWTOBUYCONST } from "../constants/HowToBuy.const";
 
 const HowToBuy = () => {
   return (
-    <div id="how-to-buy" className="commmanPadding xmmlg:pt-[50px] h-auto w-full md:pt-[50px] xl:pt-[100px]">
+    <div
+      id="how-to-buy"
+      className="commmanPadding xmmlg:pt-[50px] h-auto w-full md:pt-[50px] xl:pt-[100px]"
+    >
       <div className="flex h-auto flex-col items-center gap-[47px] md:flex-row md:items-end md:justify-between">
         <div className="md:h flex w-auto items-end">
           <picture className="max-w-[212px] md:max-w-[400px]">

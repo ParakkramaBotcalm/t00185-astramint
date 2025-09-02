@@ -40,7 +40,7 @@ function App() {
       <Marquee autoFill={true} pauseOnHover={true} direction={"right"}>
         <MarqueComponent />
       </Marquee>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
