@@ -5,7 +5,7 @@ import NorteaseArrow from "../assets/image/icons/nothEastArrow.svg";
 
 const Tokonomics = () => {
   return (
-    <div className="xmmlg:px-[200px] flex h-auto w-full max-w-[1920px] flex-col items-center bg-black px-[29px] py-[50px] md:px-[50px] lg:px-[100px] xl:py-[80px] 2xl:px-[150px] 2xl:py-[100px]">
+    <div id="tokenomics" className="xmmlg:px-[200px] flex h-auto w-full max-w-[1920px] flex-col items-center bg-black px-[29px] py-[50px] md:px-[50px] lg:px-[100px] xl:py-[80px] 2xl:px-[150px] 2xl:py-[100px]">
       <div className="bg-brouwn relative flex w-full max-w-[450px] min-w-[300px] flex-col items-center gap-[30px] rounded-[60px] p-[30px] md:min-w-full md:flex-col-reverse md:justify-between md:gap-0 md:py-[50px]">
         <div>
           <picture>

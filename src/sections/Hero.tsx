@@ -4,7 +4,7 @@ import DownArrow from "../assets/image/icons/downArrow.svg";
 
 const Hero = () => {
   return (
-    <div className="xmmlg:px-[200px] flex h-auto w-full max-w-[1920px] flex-col justify-end bg-black pt-[124px] text-white md:relative md:flex-row md:justify-between md:px-[50px] lg:px-[100px] 2xl:px-[150px]">
+    <div id="who-is-astramint" className="xmmlg:px-[200px] flex h-auto w-full max-w-[1920px] flex-col justify-end bg-black pt-[124px] text-white md:relative md:flex-row md:justify-between md:px-[50px] lg:px-[100px] 2xl:px-[150px]">
       <div className="midlg:min-h-[350px] flex flex-col items-center gap-[30px] px-[29px] md:min-h-[300px] md:justify-between lg:min-h-[400px] xl:min-h-[450px] 2xl:min-h-[565px]">
         <div className="flex max-w-[400px] flex-col items-center md:relative md:max-w-[450px] lg:max-w-[500px] xl:max-w-[550px] 2xl:max-w-[785px]">
           <p className="first-letter:text-yellow midlg:leading-[70px] midlg:text-[75px] font-Poppins text-center text-[50px] leading-[61px] font-[900] uppercase after:text-yellow-400 after:content-['.'] md:text-start md:text-[65px] md:leading-[55px] lg:text-[85px] lg:leading-[80px] xl:text-[100px] xl:leading-[90px] 2xl:text-[130px] 2xl:leading-[120px]">

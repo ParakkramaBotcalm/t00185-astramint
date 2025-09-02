@@ -8,6 +8,7 @@ import MarqueComponent from "./components/MarqueComponent";
 import TokenStory from "./sections/TokenStory";
 import Quictions from "./sections/Quictions";
 import HowToBuy from "./sections/HowToBuy";
+import Footer from "./sections/Footer";
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
       <Marquee autoFill={true} pauseOnHover={true} direction={"right"}>
         <MarqueComponent />
       </Marquee>
+      <Footer/>
     </div>
   );
 }

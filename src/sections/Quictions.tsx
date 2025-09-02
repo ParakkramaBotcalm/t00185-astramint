@@ -7,7 +7,7 @@ import RoadMap from "./RoadMap";
 
 const Quictions = () => {
   return (
-    <div className="flex h-auto w-full flex-col gap-[50px]">
+    < div id="questions" className="flex h-auto w-full flex-col gap-[50px]">
       <div className="flex h-auto w-full flex-col items-center px-[29px] md:hidden">
         <div className="flex w-full max-w-[356px] flex-col gap-[50px]">
           <div>
