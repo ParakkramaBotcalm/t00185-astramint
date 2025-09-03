@@ -7,7 +7,7 @@ import RoadMap from "./RoadMap";
 
 const Quictions = () => {
   return (
-    <div id="questions" className="flex h-auto w-full flex-col gap-[50px]">
+    <div id="questions" className="flex h-auto w-full flex-col gap-[50px] max-w-[1920px]">
       <div className="flex h-auto w-full flex-col items-center px-[29px] md:hidden">
         <div className="flex w-full max-w-[356px] flex-col gap-[50px]">
           <div>
@@ -40,7 +40,7 @@ const Quictions = () => {
           </picture>
         </div>
 
-        <div className="absolute top-1/8 left-6/11 -translate-x-1/2 lg:top-1/8">
+        <div id="road-map" className="absolute top-1/8 left-6/11 -translate-x-1/2 lg:top-1/8">
           <div className="relative">
             <picture className="">
               <img
@@ -76,7 +76,7 @@ const Quictions = () => {
         </div>
       </div>
 
-      <div className="xmmlg:h-[100px] relative hidden h-[300px] w-full flex-col justify-end bg-black md:flex lg:h-[250px] xl:h-[350px]">
+      <div  className="xmmlg:h-[100px] relative hidden h-[300px] w-full flex-col justify-end bg-black md:flex lg:h-[250px] xl:h-[350px]">
         <div className="xmmlg:-top-[400px] absolute inset-0 -top-[200px] z-10 flex items-center justify-center lg:-top-[250px]">
           <RoadMap />
         </div>

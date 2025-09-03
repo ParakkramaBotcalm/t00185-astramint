@@ -9,6 +9,7 @@ import TokenStory from "./sections/TokenStory";
 import Quictions from "./sections/Quictions";
 import HowToBuy from "./sections/HowToBuy";
 import Footer from "./sections/Footer";
+import NavBar from "./components/NavBar";
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
   }, []);
   return (
     <div className="flex flex-col items-center justify-start bg-black">
+      <NavBar/>
       <Hero />
       <Tokonomics />
       <Marquee autoFill={true} pauseOnHover={true}>
@@ -41,6 +43,7 @@ function App() {
         <MarqueComponent />
       </Marquee>
       <Footer />
+
     </div>
   );
 }
