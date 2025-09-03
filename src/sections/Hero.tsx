@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
       id="who-is-astramint"
-      className="xmmlg:px-[200px] flex h-auto w-full max-w-[1920px] flex-col justify-end bg-black pt-[124px] xl:pt-[200px] 2xl:pt-[224px] text-white md:relative md:flex-row md:justify-between md:px-[50px] lg:px-[100px] 2xl:px-[150px]"
+      className="xmmlg:px-[200px] flex h-auto w-full max-w-[1920px] flex-col justify-end bg-black pt-[124px] text-white md:relative md:flex-row md:justify-between md:px-[50px] lg:px-[100px] xl:pt-[200px] 2xl:px-[150px] 2xl:pt-[224px]"
     >
       <div className="midlg:min-h-[350px] flex flex-col items-center gap-[30px] px-[29px] md:min-h-[300px] md:justify-between lg:min-h-[400px] xl:min-h-[450px] 2xl:min-h-[565px]">
         <div className="flex max-w-[400px] flex-col items-center md:relative md:max-w-[450px] lg:max-w-[500px] xl:max-w-[550px] 2xl:max-w-[785px]">

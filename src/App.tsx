@@ -30,7 +30,7 @@ function App() {
   }, []);
   return (
     <div className="flex flex-col items-center justify-start bg-black">
-      <NavBar/>
+      <NavBar />
       <Hero />
       <Tokonomics />
       <Marquee autoFill={true} pauseOnHover={true}>
@@ -43,7 +43,6 @@ function App() {
         <MarqueComponent />
       </Marquee>
       <Footer />
-
     </div>
   );
 }

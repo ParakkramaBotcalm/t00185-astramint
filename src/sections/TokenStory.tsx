@@ -24,7 +24,11 @@ const TokenStory = () => {
             </p>
           </div>
           <div className="flex w-full items-center justify-center md:justify-start">
-            <BasicButton title="Buy $ASTRA" className="bg-orange group-hover:text-white" textColor="text-black" />
+            <BasicButton
+              title="Buy $ASTRA"
+              className="bg-orange group-hover:text-white"
+              textColor="text-black"
+            />
           </div>
         </div>
       </div>

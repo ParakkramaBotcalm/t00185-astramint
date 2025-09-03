@@ -8,7 +8,7 @@ const HowToBuy = () => {
   return (
     <div
       id="how-to-buy"
-      className="commmanPadding xmmlg:pt-[50px] h-auto w-full md:pt-[50px] xl:pt-[100px] max-w-[1920px]"
+      className="commmanPadding xmmlg:pt-[50px] h-auto w-full max-w-[1920px] md:pt-[50px] xl:pt-[100px]"
     >
       <div className="flex h-auto flex-col items-center gap-[47px] md:flex-row md:items-end md:justify-between">
         <div className="md:h flex w-auto items-end">

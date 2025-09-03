@@ -1,6 +1,6 @@
 import { NavButtonProps } from "../../types/NavButtonProps";
 
-const NavButton = ({ title = "Home", href = "Questions",onClick }: NavButtonProps) => {
+const NavButton = ({ title = "Home", href = "Questions", onClick }: NavButtonProps) => {
   const handleClick = () => {
     if (href) {
       const element = document.querySelector(`#${href}`);
@@ -13,8 +13,10 @@ const NavButton = ({ title = "Home", href = "Questions",onClick }: NavButtonProp
 
   return (
     <div className="h-auto w-full" onClick={handleClick}>
-      <div className="px-2 font-Bungee w-full rounded-[16px] border-[2px] border-[#000002] bg-white py-4 text-center text-[14px] leading-[22px] font-[400] uppercase drop-shadow-[0px_6px_0px_#E7BB0D] hover:bg-orange group cursor-pointer">
-        <p className="md:text-[7px] midlg:text-[9px] lg:text-[10px] xl:text-[12px] 2xl:text-[14px] xmmlg:text-[16px] group-hover:text-white transition-colors duration-300 ease-in">{title}</p>
+      <div className="font-Bungee hover:bg-orange group w-full cursor-pointer rounded-[16px] border-[2px] border-[#000002] bg-white px-2 py-4 text-center text-[14px] leading-[22px] font-[400] uppercase drop-shadow-[0px_6px_0px_#E7BB0D]">
+        <p className="midlg:text-[9px] xmmlg:text-[16px] transition-colors duration-300 ease-in group-hover:text-white md:text-[7px] lg:text-[10px] xl:text-[12px] 2xl:text-[14px]">
+          {title}
+        </p>
       </div>
     </div>
   );
